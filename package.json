@@ -1,0 +1,24 @@
+{
+  "name": "display-system",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.ts",
+  "scripts": {
+    "start": "electron dist/app.js",
+    "build": "tsc src/app.ts --outDir dist/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/team-vicito/display-system.git"
+  },
+  "author": "David Penkowoj",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/team-vicito/display-system/issues"
+  },
+  "homepage": "https://github.com/team-vicito/display-system#readme",
+  "devDependencies": {
+    "electron": "^12.0.7",
+    "typescript": "^4.2.4"
+  }
+}
